@@ -1,0 +1,89 @@
+/* 🌙 Dark theme basics */
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+ background: linear-gradient(to right, #FF512F, #DD2476);
+  color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+/* 📝 Heading */
+h2 {
+  color: #420532;
+  margin-bottom: 20px;
+}
+
+/* 🧾 Input box */
+input[type="text"] {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 250px;
+  background-color: #f0c4d4;
+  color: #1c1d1d;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+/* 🟩 Button */
+button {
+  padding: 10px 16px;
+  background-color: #f599b3;
+  border: none;
+  border-radius: 8px;
+  color: #121212;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #a95987;
+}
+
+/* 📜 List styling */
+ul {
+  margin-top: 30px;
+  list-style: none;
+  padding: 0;
+  width: 300px;
+}
+li {
+  background-color: #d889b5;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #fff;
+  display: flex;              /* Use Flexbox */
+  justify-content: space-between; /* Space between text and button */
+  align-items: center;        /* Vertically center items */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.2s;
+}
+
+li:hover {
+  background-color: #e38cbf;
+}
+.deleteBtn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 5px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.deleteBtn:hover {
+  background-color: #ff5e7e;
+  color: white;
+}
+
+
+
